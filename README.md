@@ -7,8 +7,10 @@ The extentsion will Auto-Upload and Auto-Scan files on Virustotal:
 
 
 and send you the Flagged AVs that got triggered in 2 Notifications:
-<img width="354" height="328" alt="image" src="https://github.com/user-attachments/assets/953827a5-9d7f-41ca-828e-bb61d5440557" />
-<img width="385" height="138" alt="image" src="https://github.com/user-attachments/assets/69d9353b-ba3b-48b3-9637-594500a53da5" />
+<img width="350" height="125" alt="image" src="https://github.com/user-attachments/assets/0742d629-dcb4-415c-841e-3fff26e229a4" />
+
+<img width="359" height="125" alt="image" src="https://github.com/user-attachments/assets/f4f3722c-58c7-4447-9de1-77ab64ee43a4" />
+
 
 Options on how to customize it are also avaliable:
 <img width="586" height="494" alt="image" src="https://github.com/user-attachments/assets/86916c48-1f06-4064-8221-54329a755cc4" />
