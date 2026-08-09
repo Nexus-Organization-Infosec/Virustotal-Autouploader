@@ -6,7 +6,9 @@ The extentsion will Auto-Upload and Auto-Scan files on Virustotal:
 <img width="271" height="162" alt="image" src="https://github.com/user-attachments/assets/1dbe27ce-1138-4e26-baa9-37a90d3c0dc2" />
 
 
+
 and send you the Flagged AVs that got triggered in 2 Notifications:
+
 
 <img width="350" height="125" alt="image" src="https://github.com/user-attachments/assets/0742d629-dcb4-415c-841e-3fff26e229a4" />
 
@@ -15,6 +17,8 @@ and send you the Flagged AVs that got triggered in 2 Notifications:
 
 
 Options on how to customize it are also avaliable:
+
+
 <img width="586" height="494" alt="image" src="https://github.com/user-attachments/assets/86916c48-1f06-4064-8221-54329a755cc4" />
 
 Sometimes you might need to click yourself through an "I am a robot" Captcha, but that should not occur many times. 
