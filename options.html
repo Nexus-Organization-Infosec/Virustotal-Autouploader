@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>VirusTotal Download Scanner — Settings</title>
+  <style>
+    body { font-family: system-ui, Segoe UI, sans-serif; max-width: 540px; margin: 32px auto; padding: 0 16px; color: #1a1a1a; }
+    h1 { font-size: 18px; }
+    h2 { font-size: 14px; margin: 26px 0 8px; }
+    p { line-height: 1.5; color: #555; font-size: 13px; margin: 4px 0 0; }
+    input[type=text] { width: 100%; padding: 9px 10px; font-size: 14px; box-sizing: border-box; border: 1px solid #bbb; border-radius: 6px; }
+    .check { display: flex; align-items: flex-start; gap: 10px; margin-top: 8px; }
+    .check input { margin-top: 3px; transform: scale(1.2); }
+    button { margin-top: 22px; padding: 9px 18px; font-size: 14px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+    button:hover { background: #1d4ed8; }
+    .status { margin-top: 12px; font-size: 13px; color: #16a34a; min-height: 18px; }
+    code { background: #f1f1f1; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>VirusTotal Download Scanner — Settings</h1>
+
+  <h2>Do not upload these file types</h2>
+  <p>Comma-separated extensions. Matching downloads are skipped. Example: <code>iso, pdf, docx</code></p>
+  <input type="text" id="excludedTypes" placeholder="e.g. iso, pdf, mp4">
+
+  <h2>Auto-remove risky files</h2>
+  <label class="check">
+    <input type="checkbox" id="autoRemove">
+    <span>Automatically delete a downloaded file if <strong>more than 5</strong> vendors flag it as malicious.</span>
+  </label>
+  <p>Deletes the file from disk and clears it from the downloads list.</p>
+
+  <h2>Headless mode</h2>
+  <label class="check">
+    <input type="checkbox" id="headless">
+    <span>Scan without opening a normal tab — uses a <strong>minimized background window</strong> that closes automatically when the scan finishes.</span>
+  </label>
+  <p>An extension can't load an external site with no window at all, so this is the closest to headless. Leave off if you want to watch the report.</p>
+
+  <button id="save">Save settings</button>
+  <div class="status" id="status"></div>
+
+  <p style="margin-top:24px">Files over VirusTotal's 650 MB limit are never uploaded.</p>
+
+  <script src="options.js"></script>
+</body>
+</html>

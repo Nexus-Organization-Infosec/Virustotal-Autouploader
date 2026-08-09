@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "VirusTotal Download Scanner",
+  "version": "3.4.0",
+  "description": "When a download finishes, automatically uploads it to VirusTotal, reports detections, and can auto-remove risky files.",
+  "permissions": [
+    "downloads",
+    "notifications",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "file:///*",
+    "https://www.virustotal.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "48": "icon48.png", "128": "icon128.png" }
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://www.virustotal.com/gui/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
