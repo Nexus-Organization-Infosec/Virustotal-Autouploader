@@ -23,7 +23,9 @@ Options on how to customize it are also avaliable:
 
 <img width="586" height="494" alt="image" src="https://github.com/user-attachments/assets/86916c48-1f06-4064-8221-54329a755cc4" />
 
-Sometimes you might need to click yourself through an "I am a robot" Captcha, but that should not occur many times. 
+
+
+NOTE: Sometimes you might need to click yourself through an "I am a robot" Captcha, but that should not occur many times. 
 
 How to Install:
 1. Download or clone this repository to your local machine.
