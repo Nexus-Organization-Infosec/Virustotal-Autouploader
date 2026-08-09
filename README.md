@@ -41,8 +41,7 @@ How to Install:
 6. The extension is now installed and active in your browser.
 
 <details>
-<summary><b>Legal Disclaimer & Notice of Non-Affiliation (Click to expand)</b></summary>
-
+<summary><h3>Legal Disclaimer & Notice of Non-Affiliation (Click to expand)</h3></summary>
 <br>
 
 ### Legal Disclaimer & Notice of Non-Affiliation
